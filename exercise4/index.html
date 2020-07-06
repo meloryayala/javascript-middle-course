@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Intermediario</title>
+    <style>
+      div{
+        margin-bottom: 15px;
+      }
+
+      .hide{
+        display: none;
+      }
+
+      .selectError{
+        border: 1px solid red ;
+
+      }
+    </style>
+</head>
+
+<body>
+  <form id="formCidade">
+    <div>
+      <label>Estado</label>
+      <select id="estado" name="Estado">
+        <option value="">-- Selecione --</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="São Paulo">São Paulo</option>
+      </select>
+    </div>
+
+    <div id="cidade" class="hide">
+      <label>Cidades</label>
+      <select class="cidadeSelect">
+        <option>-- Selecione --</option>
+      </select>
+    </div>
+
+    <div>
+      <button id="button">Enviar</button>
+    </div>
+</form>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
